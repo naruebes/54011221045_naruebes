@@ -22,7 +22,7 @@ class tipCaculator {
     }
     
     //1
-    func returnPossibleTipPct(tipPct:Double){
+    func returnPossibleTipPct() ->[Int: Double]{
         let possibleTipsInferred = [0.15, 0.12, 0.20]
         let possibleTipsExplicit:[Double] = [0.15, 0.18, 0.20]
         var numberOfItems = possibleTipsInferred.count
@@ -41,10 +41,9 @@ class tipCaculator {
     }
 }
 
-class tip {
-    //6
-    let tipCalc = tipCaculator(total: 33.25, taxPct: 0.06)
-    tipCalc.returnPossibleTips()
-}
+//6
+let tipCalc = tipCaculator(total: 33.25, taxPct: 0.06)
+tipCalc.returnPossibleTips()
+
 
 
