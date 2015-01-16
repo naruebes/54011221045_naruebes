@@ -88,5 +88,15 @@ if let removedValue = airports.removeValueForKey("DUB"){
 }
 
 
-var array1 = ["abc", "def", ""]
+var array1 = ["abc", "def", "xyz"]
+for (var i = 0; i < array1.count; i++){
+    println(array1[i])
+}
+
+var array2 = ["a", "b", "c"]
+for str in array2{
+println(str)
+}
+
+
 
