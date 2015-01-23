@@ -87,16 +87,37 @@ if let removedValue = airports.removeValueForKey("DUB"){
     println("The airports dictionary does not contain a value for DUB.")
 }
 
-
+var st1 = "def"
+var temp1 = 0
 var array1 = ["abc", "def", "xyz"]
 for (var i = 0; i < array1.count; i++){
+    if (st1==array1[i]) {
+        
+        temp1 = i
+    }
+    
     println(array1[i])
+   
 }
-
+ println(temp1)
+ 
 var array2 = ["a", "b", "c"]
 for str in array2{
 println(str)
 }
 
+var animal = ["dog", "pig", "cow"]
+var feed = ["กระดูก","รำ","หญ้า"]
+var st = "dog"
+var temp = 0
+func Animal(name:String) {
+    for (var i = 0; i < animal.count; i++) {
+        if (st==animal[i]) {
+            
+            temp = i
+        }
+    }
+    println(temp)
 
+}
 
