@@ -62,8 +62,7 @@ let dictionary: Dictionary<String, Int> = ["dog": 1, "elephnt": 2]
 var airports: [String: String] = ["TY0": "Tokyo", "DUB": "Dublin"]
 if (airports.isEmpty){
     println("The airports dictionary is empty.")
-}else{
-    println("The airports dictionary is not empty.")
+}else{    println("The airports dictionary is not empty.")
 
 }
 println("The airports dictionary contains \(airports.count) item.")
