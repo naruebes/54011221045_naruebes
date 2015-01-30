@@ -25,6 +25,9 @@ let nameInferred = "Whoopie Cushion"
 let nameExplicit:String = "Whoopie Cushion"
 
 
+var l = [Int]()
+l.append(0)
+
 var shoppingListExplicit = [String]()
 shoppingListExplicit = ["Eggs","Milk"]
 //var shoppingListExplicit: [String] =["Eggs","Milk"]

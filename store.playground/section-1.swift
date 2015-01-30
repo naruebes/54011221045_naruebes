@@ -2,26 +2,48 @@
 
 import UIKit
 class store {
-    let product: [String] = ["เสื้อ", "กางเกง", "หมวก","นาฬิกา"]
-    let price: [Int] = [250, 160 , 100 , 50]
-    var temp: String
-    var tprice : Int
+    var product: [String] = ["เสื้อ", "กางเกง", "หมวก","นาฬิกา"]
+    var price: [Int] = [250, 160 , 100 , 50]
+//    var temp: String
+//    var tprice : Int
     
-    init(p: String, s:Int) {
-        self.temp = p
-        self.tprice = s
+    init() {
+//        self.temp = p
+//        self.tprice = s
     }
     
-    func buyProduct() -> Int {
+    func buyProduct(p: String, s:Int) -> String {
         var f = 0
         for (var i = 0; i < product.count; i++) {
-            if (temp == product[i]) {
+            if (p == product[i]) {
                 f = price[i]
             }
+            
         }
         
-        return f*tprice
+        return "\(p) จำนวน \(s ) ราคา \(f*s) "
+    }
+    func add(Ap:String ,Apri: Int) ->String{
+        
+        product.append(Ap)
+        price.append(Apri)
+        return "complete"
+    }
+
+    
+    func showPro() -> [String] {
+        return product
+    }
+    
+    func showPri() -> [Int] {
+        return price
     }
 }
-let b = store(p: "เสื้อ",s: 2)
-b.buyProduct()
+let b = store()
+b.buyProduct("เสื้อ",s: 2)
+
+b.add("แหวน", Apri: 30000)
+b.showPro()
+b.showPri()
+b.buyProduct("แหวน", s: 3)
+

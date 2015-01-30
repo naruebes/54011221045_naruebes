@@ -62,5 +62,5 @@ class calculator{
 }
 
 //call class calculator
-let cal = calculator(i1: 21, i2: 3, o: "/")
+let cal = calculator(i1: 21, i2: 3, o: "+")
 cal.calculet()
