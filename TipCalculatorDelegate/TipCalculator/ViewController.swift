@@ -53,6 +53,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBAction func viewTapped(sender: AnyObject) {
         TotalTextField.resignFirstResponder()
     }
+   
     
     func refreshUI() {
         TotalTextField.text = String(format: "%0.2f", tipCal.total)
