@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-let tipCal = tipCaculatorModel(total: 33.25, taxPct: 0.06)
+let tipCal = tipCaculatorModel(total: 0, taxPct: 0.00)
     override func viewDidLoad() {
         super.viewDidLoad()
         refreshUI()

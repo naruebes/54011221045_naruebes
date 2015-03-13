@@ -19,7 +19,7 @@ class ColorTwoViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     
     @IBAction func colorSelectionButton(sender: UIButton) {
-        colorLabel.text = sender.titleLabel!.text
+        colorLabel.text = sender.titleLabel!.text!
         if(colorLabel.text == "Green") {
             colorLabel.textColor = UIColor.greenColor()
         }
@@ -32,9 +32,9 @@ class ColorTwoViewController: UIViewController {
         
         
     }
-    @IBAction func saveColor(sender: AnyObject) {
-        if(delegate != nil){
-            delegate?.myVCDidFinish(self, text: colorLabel!.text!)
+    @IBAction func saveColor(sender: UIBarButtonItem) {
+        if (delegate != nil) {
+            delegate!.myVCDidFinish(self, text: colorLabel!.text!)
         }
         
     }
