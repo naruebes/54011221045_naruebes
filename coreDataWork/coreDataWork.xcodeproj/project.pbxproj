@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDE3E3D71ABC180A00029B91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE3E3D61ABC180A00029B91 /* AppDelegate.swift */; };
+		FDE3E3DA1ABC180A00029B91 /* coreDataWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDE3E3D81ABC180A00029B91 /* coreDataWork.xcdatamodeld */; };
+		FDE3E3DC1ABC180A00029B91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE3E3DB1ABC180A00029B91 /* ViewController.swift */; };
+		FDE3E3DF1ABC180A00029B91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE3E3DD1ABC180A00029B91 /* Main.storyboard */; };
+		FDE3E3E11ABC180A00029B91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE3E3E01ABC180A00029B91 /* Images.xcassets */; };
+		FDE3E3E41ABC180A00029B91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDE3E3E21ABC180A00029B91 /* LaunchScreen.xib */; };
+		FDE3E3F01ABC180A00029B91 /* coreDataWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE3E3EF1ABC180A00029B91 /* coreDataWorkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDE3E3EA1ABC180A00029B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDE3E3C91ABC180A00029B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDE3E3D01ABC180A00029B91;
+			remoteInfo = coreDataWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDE3E3D11ABC180A00029B91 /* coreDataWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreDataWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE3E3D51ABC180A00029B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE3E3D61ABC180A00029B91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDE3E3D91ABC180A00029B91 /* coreDataWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreDataWork.xcdatamodel; sourceTree = "<group>"; };
+		FDE3E3DB1ABC180A00029B91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDE3E3DE1ABC180A00029B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE3E3E01ABC180A00029B91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDE3E3E31ABC180A00029B91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDE3E3E91ABC180A00029B91 /* coreDataWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreDataWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE3E3EE1ABC180A00029B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE3E3EF1ABC180A00029B91 /* coreDataWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataWorkTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE3E3CE1ABC180A00029B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE3E3E61ABC180A00029B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDE3E3C81ABC180A00029B91 = {
+			isa = PBXGroup;
+			children = (
+				FDE3E3D31ABC180A00029B91 /* coreDataWork */,
+				FDE3E3EC1ABC180A00029B91 /* coreDataWorkTests */,
+				FDE3E3D21ABC180A00029B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE3E3D21ABC180A00029B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE3E3D11ABC180A00029B91 /* coreDataWork.app */,
+				FDE3E3E91ABC180A00029B91 /* coreDataWorkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE3E3D31ABC180A00029B91 /* coreDataWork */ = {
+			isa = PBXGroup;
+			children = (
+				FDE3E3D61ABC180A00029B91 /* AppDelegate.swift */,
+				FDE3E3DB1ABC180A00029B91 /* ViewController.swift */,
+				FDE3E3DD1ABC180A00029B91 /* Main.storyboard */,
+				FDE3E3E01ABC180A00029B91 /* Images.xcassets */,
+				FDE3E3E21ABC180A00029B91 /* LaunchScreen.xib */,
+				FDE3E3D81ABC180A00029B91 /* coreDataWork.xcdatamodeld */,
+				FDE3E3D41ABC180A00029B91 /* Supporting Files */,
+			);
+			path = coreDataWork;
+			sourceTree = "<group>";
+		};
+		FDE3E3D41ABC180A00029B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE3E3D51ABC180A00029B91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDE3E3EC1ABC180A00029B91 /* coreDataWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDE3E3EF1ABC180A00029B91 /* coreDataWorkTests.swift */,
+				FDE3E3ED1ABC180A00029B91 /* Supporting Files */,
+			);
+			path = coreDataWorkTests;
+			sourceTree = "<group>";
+		};
+		FDE3E3ED1ABC180A00029B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDE3E3EE1ABC180A00029B91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE3E3D01ABC180A00029B91 /* coreDataWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE3E3F31ABC180A00029B91 /* Build configuration list for PBXNativeTarget "coreDataWork" */;
+			buildPhases = (
+				FDE3E3CD1ABC180A00029B91 /* Sources */,
+				FDE3E3CE1ABC180A00029B91 /* Frameworks */,
+				FDE3E3CF1ABC180A00029B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coreDataWork;
+			productName = coreDataWork;
+			productReference = FDE3E3D11ABC180A00029B91 /* coreDataWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDE3E3E81ABC180A00029B91 /* coreDataWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE3E3F61ABC180A00029B91 /* Build configuration list for PBXNativeTarget "coreDataWorkTests" */;
+			buildPhases = (
+				FDE3E3E51ABC180A00029B91 /* Sources */,
+				FDE3E3E61ABC180A00029B91 /* Frameworks */,
+				FDE3E3E71ABC180A00029B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDE3E3EB1ABC180A00029B91 /* PBXTargetDependency */,
+			);
+			name = coreDataWorkTests;
+			productName = coreDataWorkTests;
+			productReference = FDE3E3E91ABC180A00029B91 /* coreDataWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE3E3C91ABC180A00029B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iStudents;
+				TargetAttributes = {
+					FDE3E3D01ABC180A00029B91 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FDE3E3E81ABC180A00029B91 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FDE3E3D01ABC180A00029B91;
+					};
+				};
+			};
+			buildConfigurationList = FDE3E3CC1ABC180A00029B91 /* Build configuration list for PBXProject "coreDataWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE3E3C81ABC180A00029B91;
+			productRefGroup = FDE3E3D21ABC180A00029B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE3E3D01ABC180A00029B91 /* coreDataWork */,
+				FDE3E3E81ABC180A00029B91 /* coreDataWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE3E3CF1ABC180A00029B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE3E3DF1ABC180A00029B91 /* Main.storyboard in Resources */,
+				FDE3E3E41ABC180A00029B91 /* LaunchScreen.xib in Resources */,
+				FDE3E3E11ABC180A00029B91 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE3E3E71ABC180A00029B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE3E3CD1ABC180A00029B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE3E3DC1ABC180A00029B91 /* ViewController.swift in Sources */,
+				FDE3E3D71ABC180A00029B91 /* AppDelegate.swift in Sources */,
+				FDE3E3DA1ABC180A00029B91 /* coreDataWork.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE3E3E51ABC180A00029B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE3E3F01ABC180A00029B91 /* coreDataWorkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDE3E3EB1ABC180A00029B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDE3E3D01ABC180A00029B91 /* coreDataWork */;
+			targetProxy = FDE3E3EA1ABC180A00029B91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDE3E3DD1ABC180A00029B91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE3E3DE1ABC180A00029B91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE3E3E21ABC180A00029B91 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE3E3E31ABC180A00029B91 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE3E3F11ABC180A00029B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDE3E3F21ABC180A00029B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE3E3F41ABC180A00029B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coreDataWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDE3E3F51ABC180A00029B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coreDataWork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDE3E3F71ABC180A00029B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = coreDataWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreDataWork.app/coreDataWork";
+			};
+			name = Debug;
+		};
+		FDE3E3F81ABC180A00029B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = coreDataWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coreDataWork.app/coreDataWork";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE3E3CC1ABC180A00029B91 /* Build configuration list for PBXProject "coreDataWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE3E3F11ABC180A00029B91 /* Debug */,
+				FDE3E3F21ABC180A00029B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE3E3F31ABC180A00029B91 /* Build configuration list for PBXNativeTarget "coreDataWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE3E3F41ABC180A00029B91 /* Debug */,
+				FDE3E3F51ABC180A00029B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDE3E3F61ABC180A00029B91 /* Build configuration list for PBXNativeTarget "coreDataWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE3E3F71ABC180A00029B91 /* Debug */,
+				FDE3E3F81ABC180A00029B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDE3E3D81ABC180A00029B91 /* coreDataWork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDE3E3D91ABC180A00029B91 /* coreDataWork.xcdatamodel */,
+			);
+			currentVersion = FDE3E3D91ABC180A00029B91 /* coreDataWork.xcdatamodel */;
+			path = coreDataWork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDE3E3C91ABC180A00029B91 /* Project object */;
+}
