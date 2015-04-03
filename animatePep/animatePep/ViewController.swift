@@ -1,28 +1,18 @@
+//
+//  ViewController.swift
+//  animatePep
+//
+//  Created by iStudents on 4/3/15.
+//  Copyright (c) 2015 iStudents. All rights reserved.
+//
+
 import UIKit
+
 class ViewController: UIViewController {
     let container = UIView()
     let redSquare = UIView()
     let blueSquare = UIView()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        self.container.frame = CGRect(x: 60, y: 60, width: 200, height: 200)
-        self.view.addSubview(container)
-        
-        self.redSquare.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
-        self.blueSquare.frame = redSquare.frame
-        
-        self.redSquare.backgroundColor = UIColor.redColor()
-        self.blueSquare.backgroundColor = UIColor.blueColor()
-        
-        self.container.addSubview(self.redSquare)
-        
-        
-    }
-    
-    @IBAction func animateButtonTapped(sender: AnyObject) {
-        
+    @IBAction func animateButton(sender: AnyObject) {
         
         var views : (frontView: UIView, backView: UIView)
         
@@ -36,13 +26,11 @@ class ViewController: UIViewController {
         let transitionOptions = UIViewAnimationOptions.TransitionCurlUp
         
         UIView.transitionFromView(views.frontView, toView: views.backView, duration: 1.0, options: transitionOptions, completion: nil)
-        
-        
+
     }
     
-    
-    @IBAction func animate2(sender: AnyObject) {
-        
+   
+    @IBAction func animateD(sender: AnyObject) {
         var views : (frontView: UIView, backView: UIView)
         
         if((self.redSquare.superview) != nil){
@@ -55,11 +43,8 @@ class ViewController: UIViewController {
         let transitionOptions = UIViewAnimationOptions.TransitionCurlDown
         
         UIView.transitionFromView(views.frontView, toView: views.backView, duration: 1.0, options: transitionOptions, completion: nil)
-        
     }
-    
-    
-    @IBAction func animate3(sender: AnyObject) {
+    @IBAction func animateR(sender: AnyObject) {
         var views : (frontView: UIView, backView: UIView)
         
         if((self.redSquare.superview) != nil){
@@ -75,9 +60,7 @@ class ViewController: UIViewController {
         
     }
     
-    
-    @IBAction func animate4(sender: AnyObject) {
-        
+    @IBAction func animateL(sender: AnyObject) {
         var views : (frontView: UIView, backView: UIView)
         
         if((self.redSquare.superview) != nil){
@@ -90,13 +73,29 @@ class ViewController: UIViewController {
         let transitionOptions = UIViewAnimationOptions.TransitionFlipFromRight
         
         UIView.transitionFromView(views.frontView, toView: views.backView, duration: 1.0, options: transitionOptions, completion: nil)
+        
     }
     
-    
-    
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.container.frame = CGRect(x: 60, y: 60, width: 200, height: 200)
+        self.view.addSubview(container)
+        
+        self.redSquare.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+        self.blueSquare.frame = redSquare.frame
+        
+        self.redSquare.backgroundColor = UIColor.redColor()
+        self.blueSquare.backgroundColor = UIColor.blueColor()
+        
+        self.container.addSubview(self.redSquare)
+        
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
+
 }
+
